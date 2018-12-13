@@ -7,11 +7,13 @@ public class Held
 	private LinkedList<Gegenstand> inventar;
 	private int lebensPunkte;
 	private String name;
+	private int atk;
 	
 	
-	public Held(String name, int leben) {
+	public Held(String name, int leben, int atkpts) {
 		this.name = name;
 		this.lebensPunkte=leben;
+		this.atk=atkpts;
 	}
 	
 	public LinkedList<Gegenstand> getInventar()
